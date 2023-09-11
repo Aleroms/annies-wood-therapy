@@ -1,0 +1,12 @@
+@import url('base.css');
+
+h1 {
+  font-family: 'Dancing Script', cursive;
+}
+h2,
+h3 {
+  font-family: 'Roboto Slab', serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
