@@ -1,0 +1,30 @@
+[
+  {
+    "id": "homepage",
+    "title": "Welcome to",
+    "message": "view services",
+    "link": "services",
+    "showButton": true
+  },
+  {
+    "id": "about",
+    "title": "About",
+    "message": "",
+    "link": "",
+    "showButton": false
+  },
+  {
+    "id": "contact",
+    "title": "Contact",
+    "message": "",
+    "link": "",
+    "showButton": false
+  },
+  {
+    "id": "services",
+    "title": "Services",
+    "message": "",
+    "link": "",
+    "showButton": false
+  }
+]
