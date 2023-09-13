@@ -1,14 +1,20 @@
 <template>
   <section class="introduction-container">
-    <ArticleCard />
+    <ArticleCard :info="introData" />
   </section>
 </template>
 
 <script>
 import ArticleCard from './ArticleCard.vue'
+import INTRO_DATA from '@/assets/data/introduction.json'
 export default {
   name: 'IntroductionItem',
-  components: { ArticleCard }
+  components: { ArticleCard },
+  data() {
+    return {
+      introData: INTRO_DATA
+    }
+  }
 }
 </script>
 

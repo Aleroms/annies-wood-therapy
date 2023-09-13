@@ -1,22 +1,30 @@
 <template>
   <div class="card-body">
     <article class="card-content">
-      <h3 class="title">title</h3>
+      <h3 class="title">{{ info.title }}</h3>
       <p class="content">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas quasi odit sunt nam
-        debitis dolores!
+        {{ info.content }}
       </p>
-      <p class="benefit">benefit</p>
+      <p class="benefit" v-if="info.benefit">{{ info.benefit }}</p>
+      <ButtonItem v-else-if="info.showButton" :message="info.message" :link="info.link" />
     </article>
     <div class="image-wrapper">
-      <img src="" alt="image" />
+      <img :src="info.image" :alt="info.alt" />
     </div>
   </div>
 </template>
 
 <script>
+import ButtonItem from './ButtonItem.vue'
 export default {
-  name: 'ArticleCard'
+  name: 'ArticleCard',
+  props: {
+    info: {
+      type: Object,
+      required: true
+    }
+  },
+  components: { ButtonItem }
 }
 </script>
 

@@ -2,18 +2,17 @@
   <div class="footer-container">
     <Logo />
     <div class="links-container">
-      <p>About</p>
-      <p>Services</p>
-      <p>Contact</p>
+      <NavigationLinks />
     </div>
   </div>
 </template>
 
 <script>
 import Logo from './Logo.vue'
+import NavigationLinks from './NavigationLinks.vue'
 export default {
   name: 'FooterItem',
-  components: { Logo }
+  components: { Logo, NavigationLinks }
 }
 </script>
 

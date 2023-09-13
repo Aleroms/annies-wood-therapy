@@ -1,5 +1,10 @@
-[
-  {
-    "id": "introduction"
-  }
-]
+{
+  "image": "",
+  "title": "mission statement",
+  "content": "what is wood therapy about. How can you benefit from it.",
+  "alt": "intro img",
+  "showButton": false,
+  "link": "",
+  "message": "",
+  "benefit": "benefits..."
+}
