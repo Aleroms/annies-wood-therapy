@@ -11,5 +11,9 @@ I started this project by considering how I can optimize dev time and keep my co
 ## installation instructions
 
 sass preprocessor `npm install -D sass`
+font awesome:
+`npm install @fortawesome/fontawesome-svg-core`
+`npm i --save @fortawesome/vue-fontawesome@latest-3`
+`npm i --save @fortawesome/free-solid-svg-icons`
 
 ## useful links

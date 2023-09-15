@@ -5,7 +5,7 @@
     <ButtonItem
       :link="heroItem.link"
       :message="heroItem.message"
-      v-if="heroItem.showButton"
+      v-if="heroItem.showButton" class="link"
     />
   </section>
 </template>

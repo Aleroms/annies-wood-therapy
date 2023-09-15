@@ -1,6 +1,6 @@
 <template>
   <div class="logo">
-    <RouterLink to="/">
+    <RouterLink to="/" class="nav-link">
       <h2>Annie's</h2>
       <h3>Wood Therapy</h3>
     </RouterLink>
@@ -13,4 +13,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.logo{
+  display: flex;
+}
+</style>

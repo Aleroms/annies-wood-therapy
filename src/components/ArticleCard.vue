@@ -6,7 +6,7 @@
         {{ info.content }}
       </p>
       <p class="benefit" v-if="info.benefit">{{ info.benefit }}</p>
-      <ButtonItem v-else-if="info.showButton" :message="info.message" :link="info.link" />
+      <ButtonItem v-else-if="info.showButton" :message="info.message" :link="info.link" class="link" />
     </article>
     <div class="image-wrapper">
       <img :src="info.image" :alt="info.alt" />
