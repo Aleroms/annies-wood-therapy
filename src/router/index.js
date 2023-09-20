@@ -6,6 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: '/',
+      alias: '/home',
       name: 'home',
       component: HomePage
     },
@@ -24,7 +25,14 @@ const router = createRouter({
       name: 'contact',
       component: () => import('@/views/ContactPage.vue')
     }
-  ]
+  ],
+  scrollBehavior(to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { top: 0 }
+    }
+  }
 })
 
 export default router

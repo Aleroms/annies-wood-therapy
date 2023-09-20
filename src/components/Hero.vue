@@ -5,13 +5,16 @@
     <ButtonItem
       :link="heroItem.link"
       :message="heroItem.message"
-      v-if="heroItem.showButton" class="link"
+      v-if="heroItem.showButton"
+      class="link"
     />
   </section>
+  <horizontalRule />
 </template>
 
 <script>
 import ButtonItem from './ButtonItem.vue'
+import horizontalRule from './horizontalRule.vue'
 import HERO_DATA from '@/assets/data/hero.json'
 export default {
   name: 'HeroItem',
@@ -21,7 +24,7 @@ export default {
       required: true
     }
   },
-  components: { ButtonItem },
+  components: { ButtonItem, horizontalRule },
   data() {
     return {
       hero: HERO_DATA,
@@ -34,4 +37,22 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.hero-container {
+  margin-top: 88px;
+  padding: 3rem 1rem;
+  h1 {
+    font-size: 65px;
+  }
+  h2 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+  }
+
+  background-image: url('/images/hero-background.jpg');
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  text-shadow: 1px 1px 5px black;
+}
+</style>

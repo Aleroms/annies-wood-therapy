@@ -1,6 +1,6 @@
 <template>
   <section class="about-container">
-    <ArticleCard :info="about" />
+    <ArticleCard :info="about" flexDirection="column-reverse" />
   </section>
 </template>
 
@@ -18,4 +18,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.about-container{
+  margin: 1rem;
+}
+</style>

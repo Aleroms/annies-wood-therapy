@@ -1,6 +1,6 @@
 <template>
   <section class="introduction-container">
-    <ArticleCard :info="introData" />
+    <ArticleCard :info="introData" flexDirection="column" textColor="white" />
   </section>
 </template>
 
@@ -18,4 +18,9 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.introduction-container {
+  background-color: var(--light-brown);
+  padding: 1rem;
+}
+</style>

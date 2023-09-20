@@ -2,7 +2,7 @@
   <nav class="navbar">
     <!-- mobile -->
     <div v-if="isMobile" class="mobile">
-      <Logo />
+      <Logo @click="closeMenu('/home')" />
       <font-awesome-icon
         icon="fa-solid fa-bars"
         size="2x"
@@ -77,7 +77,13 @@ export default {
 .navbar {
   padding: 1rem;
   padding-right: 2.625rem;
-  background-color: var(--light-brown);
+  background-color: var(--brown);
+  // change these below values if doesn't work 
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 90%;
 }
 .mobile {
   display: flex;
@@ -101,7 +107,7 @@ export default {
   left: -170px; /* Initially hidden */
   width: 170px;
   height: 100vh;
-  background-color: var(--brown);
+  background-color: var(--dark-brown);
   color: white;
   transition: left 0.3s ease-in-out;
 }
@@ -117,5 +123,11 @@ export default {
 
 .open {
   left: 0;
+}
+
+@media(min-width: 680px){
+  .navbar{
+    width: 96%;
+  }
 }
 </style>

@@ -25,4 +25,8 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.services-container {
+  background-color: var(--light-brown);
+}
+</style>

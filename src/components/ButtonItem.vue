@@ -12,4 +12,12 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.button {
+  color: ivory;
+  background-color: var(--brown);
+  border-radius: 5px;
+  padding: 2px 9px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.358);
+}
+</style>
