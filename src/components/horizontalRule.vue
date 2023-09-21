@@ -11,7 +11,7 @@ export default {
 <style lang="scss" scoped>
 .hr {
   position: relative;
-  z-index: 999;
+  z-index: 998;
   border: none;
   height: 50px;
   margin-top: 0;

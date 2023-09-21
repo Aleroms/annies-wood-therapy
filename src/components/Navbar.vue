@@ -19,13 +19,14 @@
       />
       <div class="sidebar" :class="{ open: toggleHamburger }">
         <div class="sidebar-container">
+          <a class="nav-link" @click="closeMenu('home')">Home</a>
           <a class="nav-link" @click="closeMenu('about')">About</a>
           <a class="nav-link" @click="closeMenu('services')">Services</a>
           <a class="nav-link" @click="closeMenu('contact')">Contact</a>
         </div>
       </div>
     </div>
-    <!-- desktop  -->
+    <!-- THIS IS FOR DESKTOP IDIOT STOP CREATING BUGS!!!!!!!  -->
     <div v-else class="desktop">
       <Logo />
       <RouterLink to="/about" class="nav-link">About</RouterLink>
@@ -78,7 +79,6 @@ export default {
   padding: 1rem;
   padding-right: 2.625rem;
   background-color: var(--brown);
-  // change these below values if doesn't work 
   position: fixed;
   top: 0;
   left: 0;
@@ -125,8 +125,8 @@ export default {
   left: 0;
 }
 
-@media(min-width: 680px){
-  .navbar{
+@media (min-width: 680px) {
+  .navbar {
     width: 96%;
   }
 }

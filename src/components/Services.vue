@@ -6,7 +6,7 @@
       necessitatibus repellendus cupiditate!
     </p>
     <div class="services-list">
-      <ArticleCard v-for="(service, index) in services" :key="index" :info="service" />
+      <ArticleCard v-for="(service, index) in services" :key="index" :info="service" flexDirection="column" textColor="white"/>
     </div>
   </section>
 </template>

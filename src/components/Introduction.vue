@@ -1,5 +1,5 @@
 <template>
-  <section class="introduction-container">
+  <section class="brown-container">
     <ArticleCard :info="introData" flexDirection="column" textColor="white" />
   </section>
 </template>
@@ -19,8 +19,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.introduction-container {
-  background-color: var(--light-brown);
-  padding: 1rem;
-}
+
 </style>

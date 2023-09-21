@@ -1,6 +1,6 @@
 <template>
   <section class="about-container">
-    <ArticleCard :info="about" flexDirection="column-reverse" />
+    <ArticleCard :info="about" flexDirection="column-reverse" textColor="white"/>
   </section>
 </template>
 
