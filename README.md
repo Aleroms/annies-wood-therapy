@@ -15,5 +15,8 @@ font awesome:
 `npm install @fortawesome/fontawesome-svg-core`
 `npm i --save @fortawesome/vue-fontawesome@latest-3`
 `npm i --save @fortawesome/free-solid-svg-icons`
+swiper: `npm i swiper`
 
 ## useful links
+
+- [Swiper](https://swiperjs.com/) - swiper library for carousel and pagination
