@@ -20,3 +20,6 @@ swiper: `npm i swiper`
 ## useful links
 
 - [Swiper](https://swiperjs.com/) - swiper library for carousel and pagination
+
+## Problems I Encountered
+I wasn't able to target the `swiper-pagination-bullet-active` and `swiper-button-next`. The issue was resolved by adding the css code globally in my main.css instead of in the component-level.

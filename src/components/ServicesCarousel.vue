@@ -8,12 +8,16 @@
       :navigation="true"
       :modules="modules"
     >
-      <SwiperSlide>slide 1</SwiperSlide>
-      <SwiperSlide>slide 2</SwiperSlide>
-      <SwiperSlide>slide 3</SwiperSlide>
-      <SwiperSlide>slide 4</SwiperSlide>
-      <SwiperSlide>slide 5</SwiperSlide>
-      <SwiperSlide>slide 6</SwiperSlide>
+      <SwiperSlide
+        v-for="(service, index) in services"
+        :key="index"
+        :style="`background-image: url(${service.image})`"
+      >
+        <h2 class="slide-title">{{ service.title }}</h2>
+        <div class="slide-container">
+          <p class="slide-content">{{ service.content }}</p>
+        </div>
+      </SwiperSlide>
     </swiper>
   </div>
 </template>
@@ -64,6 +68,16 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.slide-title {
+  margin: 1rem;
+}
+.slide-container {
+  padding: 1rem 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 .carousel-container {
   margin: 1rem;
   padding: 0 1rem;
@@ -73,5 +87,9 @@ export default {
 }
 .swiper-slide {
   background-color: var(--dark-brown);
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
 }
+
 </style>
