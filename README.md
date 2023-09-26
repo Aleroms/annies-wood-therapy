@@ -16,10 +16,14 @@ font awesome:
 `npm i --save @fortawesome/vue-fontawesome@latest-3`
 `npm i --save @fortawesome/free-solid-svg-icons`
 swiper: `npm i swiper`
+vue i18n: `npm install vue-i18n@9`
 
 ## useful links
 
 - [Swiper](https://swiperjs.com/) - swiper library for carousel and pagination
+- [Internationalization](https://vue-i18n.intlify.dev/guide/) - Vue's recommendation for internalization.
+- [Language Codes](https://www.science.co.il/language/Locale-codes.php) - Language Codes
 
 ## Problems I Encountered
+
 I wasn't able to target the `swiper-pagination-bullet-active` and `swiper-button-next`. The issue was resolved by adding the css code globally in my main.css instead of in the component-level. Same thing for `router-link-active`

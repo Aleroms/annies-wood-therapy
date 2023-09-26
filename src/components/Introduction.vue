@@ -24,7 +24,7 @@ export default {
   computed: {
     direction() {
       let dir = 'column'
-      if (this.windowWidth >= 768) {
+      if (this.windowWidth >= 1024) {
         dir = 'row-reverse'
       }
       return dir

@@ -100,7 +100,7 @@ export default {
 @media (min-width: 1024px) {
   .card-body {
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-between;
     text-align: start;
 
     .content {
@@ -109,6 +109,10 @@ export default {
   }
   .card-content {
     max-width: 700px;
+    margin: 0 1rem;
+  }
+  .image-wrapper img{
+    min-width: 275px;
   }
 }
 </style>

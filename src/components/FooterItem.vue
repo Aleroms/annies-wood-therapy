@@ -33,12 +33,15 @@ export default {
   a {
     color: ivory;
     margin-bottom: 5px;
+    transition: 0.3 ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+      margin: 0 5px;
+    }
   }
 }
 @media (min-width: 768px) {
-  .router-link-active {
-    color: red;
-  }
   .footer-container {
     justify-content: space-evenly;
     .links-container {

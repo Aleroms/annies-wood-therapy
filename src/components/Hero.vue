@@ -1,10 +1,11 @@
 <template>
   <section class="hero-container">
-    <h1>{{ heroItem.title }}</h1>
+    <!-- <h1>{{ heroItem.title }}</h1> -->
+    <h1>{{ $t(`hero[${this.currentPage}].title`) }}</h1>
     <h2>ANNIE'S WOOD THERAPY</h2>
     <ButtonItem
       :link="heroItem.link"
-      :message="heroItem.message"
+      :message="$t(`hero[${this.currentPage}].message`)"
       v-if="heroItem.showButton"
       class="link"
     />
@@ -28,10 +29,12 @@ export default {
   data() {
     return {
       hero: HERO_DATA,
-      heroItem: {} // initialized empty obj to hold current item data
+      heroItem: {}, // initialized empty obj to hold current item data,
+      currentPage: 0
     }
   },
   mounted() {
+    this.currentPage = this.hero.findIndex((item) => item.id === this.page)
     this.heroItem = this.hero.find((item) => item.id === this.page)
   }
 }
@@ -59,13 +62,13 @@ export default {
 @media (min-width: 1024px) {
   .hero-container {
     min-height: 240px;
-    background-position: bottom -370px right 0;
+    // background-position: bottom -370px right 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 
-    h1{
+    h1 {
       font-size: 90px;
     }
   }

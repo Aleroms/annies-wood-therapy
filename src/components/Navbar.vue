@@ -22,27 +22,29 @@
       <div class="sidebar" :class="{ open: toggleHamburger }">
         <div class="sidebar-container">
           <a class="nav-link" @click="closeMenu('home')">Home</a>
-          <a class="nav-link" @click="closeMenu('about')">About</a>
-          <a class="nav-link" @click="closeMenu('services')">Services</a>
-          <a class="nav-link" @click="closeMenu('contact')">Contact</a>
+          <a class="nav-link" @click="closeMenu('about')">{{ $t('nav.about') }}</a>
+          <a class="nav-link" @click="closeMenu('services')">{{ $t('nav.services') }}</a>
+          <a class="nav-link" @click="closeMenu('contact')">{{ $t('nav.contact') }}</a>
         </div>
       </div>
     </div>
     <!-- THIS IS FOR DESKTOP IDIOT STOP CREATING BUGS!!!!!!!  -->
     <div v-else class="desktop">
       <Logo class="logo" />
-      <RouterLink to="/about" class="nav-link">About</RouterLink>
-      <RouterLink to="/services" class="nav-link">Services</RouterLink>
-      <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
+      <I18nToggler />
+      <RouterLink to="/about" class="nav-link">{{ $t('nav.about') }}</RouterLink>
+      <RouterLink to="/services" class="nav-link">{{ $t('nav.services') }}</RouterLink>
+      <RouterLink to="/contact" class="nav-link">{{ $t('nav.contact') }}</RouterLink>
     </div>
   </nav>
 </template>
 
 <script>
 import Logo from './Logo.vue'
+import I18nToggler from './I18nToggler.vue'
 export default {
   name: 'NavbarItem',
-  components: { Logo },
+  components: { Logo, I18nToggler },
   data() {
     return {
       windowWidth: window.innerWidth,
@@ -96,8 +98,6 @@ export default {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
-
-  
 }
 
 //sidebar code
@@ -139,6 +139,11 @@ export default {
   .nav-link {
     font-size: 22px;
     font-weight: 800;
+    transition: 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.2);
+    }
   }
 }
 </style>

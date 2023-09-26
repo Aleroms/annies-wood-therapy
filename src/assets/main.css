@@ -54,6 +54,13 @@ body {
 .page-layout {
   padding: none;
 }
+/* swiper css */
+.swiper-button-prev, .swiper-button-next{
+  color: var(--brown) !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: var(--brown) !important;
+}
 @media (min-width: 1024px) {
   .page-layout {
     padding: 0 6rem;
