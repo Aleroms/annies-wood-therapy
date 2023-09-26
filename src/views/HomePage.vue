@@ -11,7 +11,7 @@ export default {
 </script>
 
 <template>
-  <div class="homepage">
+  <div class="homepage page-layout">
     <Hero page="homepage" />
     <Introduction />
     <About />
@@ -22,3 +22,7 @@ export default {
     <Follow />
   </div>
 </template>
+
+<style lang="scss" scoped>
+
+</style>

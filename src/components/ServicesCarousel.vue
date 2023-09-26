@@ -50,7 +50,7 @@ export default {
       } else if (this.windowWidth <= 1024) {
         return 2
       }
-      return 3
+      return 4
     }
   },
   methods: {
@@ -70,6 +70,7 @@ export default {
 <style lang="scss" scoped>
 .slide-title {
   margin: 1rem;
+  z-index: 2;
 }
 .slide-container {
   padding: 1rem 3rem;
@@ -83,7 +84,7 @@ export default {
   padding: 0 1rem;
 }
 .swiper {
-  height: 350px;
+  height: 290px;
 }
 .swiper-slide {
   background-color: var(--dark-brown);
@@ -91,5 +92,8 @@ export default {
   background-size: cover;
   border-radius: 15px;
 }
-
+.slide-content {
+  text-shadow: 1px 1px 5px black;
+  color: ivory;
+}
 </style>

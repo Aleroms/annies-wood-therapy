@@ -1,6 +1,11 @@
 <template>
   <section class="brown-container">
-    <ArticleCard :info="introData" flexDirection="column" textColor="white" />
+    <ArticleCard
+      :info="introData"
+      :flexDirection="direction"
+      textColor="white"
+      backgroundColor="lightBrown"
+    />
   </section>
 </template>
 
@@ -12,12 +17,31 @@ export default {
   components: { ArticleCard },
   data() {
     return {
-      introData: INTRO_DATA
+      introData: INTRO_DATA,
+      windowWidth: window.innerWidth
     }
+  },
+  computed: {
+    direction() {
+      let dir = 'column'
+      if (this.windowWidth >= 768) {
+        dir = 'row-reverse'
+      }
+      return dir
+    }
+  },
+  methods: {
+    handleResize() {
+      this.windowWidth = window.innerWidth
+    }
+  },
+  mounted() {
+    window.addEventListener('resize', this.handleResize)
+  },
+  unmounted() {
+    window.removeEventListener('resize', this.handleResize)
   }
 }
 </script>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

@@ -1,6 +1,8 @@
 <template>
-  <Hero page="services" />
-  <Services />
+  <div class="page-layout">
+    <Hero page="services" />
+    <Services />
+  </div>
 </template>
 
 <script>

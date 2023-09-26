@@ -55,4 +55,19 @@ export default {
   text-align: center;
   text-shadow: 1px 1px 5px black;
 }
+
+@media (min-width: 1024px) {
+  .hero-container {
+    min-height: 240px;
+    background-position: bottom -370px right 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+      font-size: 90px;
+    }
+  }
+}
 </style>

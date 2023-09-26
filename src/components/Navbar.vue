@@ -9,6 +9,7 @@
         color="seashell"
         v-if="!toggleHamburger"
         @click="hamburger"
+        class="hamburger"
       />
       <font-awesome-icon
         icon="fa-solid fa-x"
@@ -16,6 +17,7 @@
         color="seashell"
         v-else
         @click="hamburger"
+        class="hamburger"
       />
       <div class="sidebar" :class="{ open: toggleHamburger }">
         <div class="sidebar-container">
@@ -125,9 +127,19 @@ export default {
   left: 0;
 }
 
+.hamburger {
+  cursor: pointer;
+}
+
 @media (min-width: 680px) {
   .navbar {
     width: 96%;
+
+    
+  }
+  .nav-link{
+    font-size: 22px;
+    font-weight: 800;
   }
 }
 </style>

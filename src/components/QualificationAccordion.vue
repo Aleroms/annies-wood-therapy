@@ -8,8 +8,8 @@
         :class="{ open: isOpen(index) }"
       >
         <h3>{{ qualification.title }}</h3>
-        <font-awesome-icon icon="fa-solid fa-chevron-up" color="grey" v-if="isOpen(index)" />
-        <font-awesome-icon icon="fa-solid fa-chevron-down" color="grey" v-else />
+        <font-awesome-icon icon="fa-solid fa-chevron-up" color="ivory" v-if="isOpen(index)" />
+        <font-awesome-icon icon="fa-solid fa-chevron-down" color="ivory" v-else />
       </div>
       <!-- Display the content when the accordion is open -->
       <div v-if="isOpen(index)" class="qualification-content">
@@ -51,9 +51,12 @@ export default {
 }
 .qualification-list {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a light shadow */
+  min-width: 280px;
 }
 .qualification-item {
-  border-bottom: 1px solid gray; /* Add a border to all items */
+  border-bottom: 1px solid var(--dark-brown); /* Add a border to all items */
+  border-left: 2px solid var((--dark-brown));
+  background-color: var(--light-brown);
 }
 
 .qualification-header {
@@ -73,7 +76,7 @@ export default {
 .qualification-content {
   padding: 0.625rem 2rem;
   display: none; /* Hide content by default */
-  border-bottom: 1px solid gray; /* Add a border at the bottom of content */
+  color: ivory;
 }
 
 /* Show content when the accordion is open */
@@ -84,5 +87,10 @@ export default {
 /* Remove the border at the bottom of the last item */
 .qualification-item:last-child .qualification-content {
   border-bottom: none;
+}
+@media(min-width: 768px){
+  .qualification-list{
+    width: 450px;
+  }
 }
 </style>

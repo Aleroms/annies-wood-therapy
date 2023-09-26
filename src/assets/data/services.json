@@ -1,42 +1,82 @@
 [
   {
     "image": "/images/test.jpg",
-    "title": "service name 1",
-    "content": "here is a lengthy description about a service that is offered. What does it description...",
-    "alt": "service name",
+    "title": "Massage Therapy",
+    "content": "Indulge in the healing touch of our expert therapists as they release tension, improve circulation, and enhance relaxation through a variety of massage techniques tailored to your needs.",
+    "alt": "massage therapy",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "benefits..."
+    "benefit": "Reduced stress, improved circulation, and relief from tension and muscle pain, leaving you relaxed and rejuvenated."
   },
   {
     "image": "/images/test.jpg",
-    "title": "service name 2",
-    "content": "description...",
-    "alt": "service name",
+    "title": "Body Wraps",
+    "content": "Experience the ultimate detoxification and skin rejuvenation with our nourishing body wraps, designed to leave you feeling refreshed and revitalized.",
+    "alt": "body wraps",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "benefits..."
+    "benefit": "Experience detoxification, improved skin tone, and enhanced relaxation, nurturing your skin and promoting a sense of well-being."
   },
   {
     "image": "/images/test.jpg",
-    "title": "service name 3",
-    "content": "description...",
-    "alt": "service name",
+    "title": "Lymphatic Draining",
+    "content": "Our lymphatic draining sessions promote healthy circulation, reduce inflammation, and enhance your body's natural detoxification processes, supporting overall wellness.",
+    "alt": "lymphatic draining",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "benefits..."
+    "benefit": "Reap the rewards of enhanced circulation, reduced inflammation, and effective detoxification, fostering overall health and vitality."
   },
   {
     "image": "/images/test.jpg",
-    "title": "service name 4",
-    "content": "description...",
-    "alt": "service name",
+    "title": "Cupping Facial",
+    "content": "Reveal your skin's natural radiance with our cupping facial treatments, which improve blood flow, reduce puffiness, and promote a youthful complexion.",
+    "alt": "cupping facial",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "benefits..."
+    "benefit": "Enjoy smoother, more youthful skin with reduced puffiness, improved blood flow, and a rejuvenated complexion."
+  },
+  {
+    "image": "/images/test.jpg",
+    "title": "Thermal Plaster Therapy",
+    "content": "Ease muscle pain and stiffness with our thermal plaster therapy, a soothing and therapeutic treatment that provides deep relief and relaxation.",
+    "alt": "thermal plater therapy",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Alleviate muscle discomfort, soothe stiffness, and experience deep relaxation, offering profound relief and tranquility."
+  },
+  {
+    "image": "/images/test.jpg",
+    "title": "Thai Reflexology",
+    "content": "Rebalance your body's energy flow through Thai reflexology, a holistic foot massage that targets specific pressure points to alleviate stress and promote well-being.",
+    "alt": "Thai reflexology",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Restore balance and vitality by stimulating key pressure points in your feet, encouraging relaxation and holistic wellness."
+  },
+  {
+    "image": "/images/test.jpg",
+    "title": "Relaxing Wood Therapy",
+    "content": "Immerse yourself in the ancient art of wood therapy, where specialized wooden tools are used to sculpt and contour your body, promoting relaxation, circulation, and toning.",
+    "alt": "relaxing wood therapy",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Sculpt your body contours, improve circulation, and promote muscle toning, fostering relaxation and a renewed sense of confidence."
+  },
+  {
+    "image": "/images/test.jpg",
+    "title": "Cryotherapy",
+    "content": "Discover the rejuvenating benefits of cryotherapy, a cold therapy technique that reduces inflammation, promotes healing, and leaves you feeling refreshed and invigorated.",
+    "alt": "cryotherapy",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Discover the invigorating effects of reduced inflammation, enhanced healing, and feeling refreshed and revitalized, both mentally and physically."
   }
 ]

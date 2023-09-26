@@ -20,4 +20,9 @@ export default {
   padding: 2px 9px;
   box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.358);
 }
+@media (min-width: 1024px) {
+  .button {
+    font-size: 22px;
+  }
+}
 </style>

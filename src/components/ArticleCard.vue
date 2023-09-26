@@ -1,5 +1,5 @@
 <template>
-  <div class="card-body" :class="flexDirection">
+  <div class="card-body" :class="[flexDirection, backgroundColor]">
     <article class="card-content">
       <h3 class="title text-shadow">{{ info.title }}</h3>
       <div>
@@ -9,12 +9,7 @@
         <p class="benefit" v-if="info.benefit" :class="textColor">{{ info.benefit }}</p>
       </div>
 
-      <ButtonItem
-        v-if="info.showButton"
-        :message="info.message"
-        :link="info.link"
-        class="link"
-      />
+      <ButtonItem v-if="info.showButton" :message="info.message" :link="info.link" class="link" />
     </article>
     <div class="image-wrapper">
       <img :src="info.image" :alt="info.alt" />
@@ -38,6 +33,10 @@ export default {
     textColor: {
       type: String,
       required: true
+    },
+    backgroundColor: {
+      type: String,
+      required: true
     }
   },
   components: { ButtonItem }
@@ -45,6 +44,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.light-brown {
+  background-color: var(--neutral-brown);
+}
 .title {
   margin-top: 1.625rem;
 }
@@ -72,6 +74,9 @@ export default {
 .white {
   color: ivory;
 }
+.brown {
+  color: var(--very-dark-brown);
+}
 
 .image-wrapper {
   margin-top: 1.625rem;
@@ -84,6 +89,26 @@ export default {
     max-width: 500px;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  }
+}
+.row {
+  flex-direction: row;
+}
+.row-reverse {
+  flex-direction: row-reverse;
+}
+@media (min-width: 1024px) {
+  .card-body {
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: start;
+
+    .content {
+      line-height: 1.8rem;
+    }
+  }
+  .card-content {
+    max-width: 700px;
   }
 }
 </style>

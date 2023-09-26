@@ -1,6 +1,8 @@
 <template>
-  <Hero page="contact" />
-  <Follow />
+  <div class="page-layout">
+    <Hero page="contact" />
+    <Follow />
+  </div>
 </template>
 
 <script>

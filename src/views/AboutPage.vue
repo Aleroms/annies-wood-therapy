@@ -1,5 +1,5 @@
 <template>
-  <div class="about-container">
+  <div class="about-container page-layout">
     <Hero page="about" />
     <About />
     <Qualifications />
@@ -20,4 +20,6 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

@@ -43,6 +43,8 @@ export default {
       
       a{
         margin-right: 15px;
+        font-size: 22px;
+        font-weight: 800;
       }
     }
   }

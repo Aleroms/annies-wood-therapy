@@ -16,6 +16,7 @@ a {
 }
 p {
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.325rem;
 }
 * {
   margin: 0;
@@ -32,11 +33,29 @@ body {
 .nav-link {
   text-decoration: none;
   color: seashell;
+  cursor: pointer;
 }
 .text-shadow {
   text-shadow: 1px 1px 5px black;
 }
+.text-brown {
+  color: var(--very-dark-brown);
+}
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
 .brown-container {
   background-color: var(--light-brown);
   padding: 1rem;
+}
+.page-layout {
+  padding: none;
+}
+@media (min-width: 1024px) {
+  .page-layout {
+    padding: 0 6rem;
+  }
 }

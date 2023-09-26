@@ -18,5 +18,8 @@ export default {
 </template>
 
 <style lang="scss">
-
+main{
+  background: rgb(64,6,1);
+background: linear-gradient(0deg, rgba(64,6,1,1) 0%, rgba(115,32,2,1) 35%, rgba(217,141,98,1) 100%);
+}
 </style>
