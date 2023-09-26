@@ -30,7 +30,7 @@
     </div>
     <!-- THIS IS FOR DESKTOP IDIOT STOP CREATING BUGS!!!!!!!  -->
     <div v-else class="desktop">
-      <Logo />
+      <Logo class="logo" />
       <RouterLink to="/about" class="nav-link">About</RouterLink>
       <RouterLink to="/services" class="nav-link">Services</RouterLink>
       <RouterLink to="/contact" class="nav-link">Contact</RouterLink>
@@ -97,9 +97,7 @@ export default {
   align-items: flex-end;
   justify-content: space-between;
 
-  :last-child {
-    padding-right: 1rem;
-  }
+  
 }
 
 //sidebar code
@@ -132,12 +130,13 @@ export default {
 }
 
 @media (min-width: 680px) {
+  .logo {
+    padding-left: 15px;
+  }
   .navbar {
     width: 96%;
-
-    
   }
-  .nav-link{
+  .nav-link {
     font-size: 22px;
     font-weight: 800;
   }

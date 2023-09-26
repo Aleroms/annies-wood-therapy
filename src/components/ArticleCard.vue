@@ -1,7 +1,7 @@
 <template>
   <div class="card-body" :class="[flexDirection, backgroundColor]">
     <article class="card-content">
-      <h3 class="title text-shadow">{{ info.title }}</h3>
+      <h2 class="title text-shadow">{{ info.title }}</h2>
       <div>
         <p class="content" :class="textColor">
           {{ info.content }}

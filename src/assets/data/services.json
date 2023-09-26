@@ -1,6 +1,6 @@
 [
   {
-    "image": "/images/test.jpg",
+    "image": "/images/massage-therapy.jpg",
     "title": "Massage Therapy",
     "content": "Indulge in the healing touch of our expert therapists as they release tension, improve circulation, and enhance relaxation through a variety of massage techniques tailored to your needs.",
     "alt": "massage therapy",
@@ -10,7 +10,7 @@
     "benefit": "Reduced stress, improved circulation, and relief from tension and muscle pain, leaving you relaxed and rejuvenated."
   },
   {
-    "image": "/images/test.jpg",
+    "image": "/images/body-wraps.jpg",
     "title": "Body Wraps",
     "content": "Experience the ultimate detoxification and skin rejuvenation with our nourishing body wraps, designed to leave you feeling refreshed and revitalized.",
     "alt": "body wraps",
@@ -20,7 +20,7 @@
     "benefit": "Experience detoxification, improved skin tone, and enhanced relaxation, nurturing your skin and promoting a sense of well-being."
   },
   {
-    "image": "/images/test.jpg",
+    "image": "/images/lymphatic-draining.jpg",
     "title": "Lymphatic Draining",
     "content": "Our lymphatic draining sessions promote healthy circulation, reduce inflammation, and enhance your body's natural detoxification processes, supporting overall wellness.",
     "alt": "lymphatic draining",
@@ -30,7 +30,7 @@
     "benefit": "Reap the rewards of enhanced circulation, reduced inflammation, and effective detoxification, fostering overall health and vitality."
   },
   {
-    "image": "/images/test.jpg",
+    "image": "/images/facial-cupping.jpg",
     "title": "Cupping Facial",
     "content": "Reveal your skin's natural radiance with our cupping facial treatments, which improve blood flow, reduce puffiness, and promote a youthful complexion.",
     "alt": "cupping facial",
@@ -40,7 +40,7 @@
     "benefit": "Enjoy smoother, more youthful skin with reduced puffiness, improved blood flow, and a rejuvenated complexion."
   },
   {
-    "image": "/images/test.jpg",
+    "image": "/images/thermal-plaster-therapy.jpg",
     "title": "Thermal Plaster Therapy",
     "content": "Ease muscle pain and stiffness with our thermal plaster therapy, a soothing and therapeutic treatment that provides deep relief and relaxation.",
     "alt": "thermal plater therapy",
@@ -50,7 +50,7 @@
     "benefit": "Alleviate muscle discomfort, soothe stiffness, and experience deep relaxation, offering profound relief and tranquility."
   },
   {
-    "image": "/images/test.jpg",
+    "image": "/images/thai-reflexology.jpg",
     "title": "Thai Reflexology",
     "content": "Rebalance your body's energy flow through Thai reflexology, a holistic foot massage that targets specific pressure points to alleviate stress and promote well-being.",
     "alt": "Thai reflexology",
@@ -60,7 +60,7 @@
     "benefit": "Restore balance and vitality by stimulating key pressure points in your feet, encouraging relaxation and holistic wellness."
   },
   {
-    "image": "/images/test.jpg",
+    "image": "/images/cryotherapy.jpg",
     "title": "Relaxing Wood Therapy",
     "content": "Immerse yourself in the ancient art of wood therapy, where specialized wooden tools are used to sculpt and contour your body, promoting relaxation, circulation, and toning.",
     "alt": "relaxing wood therapy",

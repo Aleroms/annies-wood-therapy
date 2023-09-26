@@ -58,4 +58,9 @@ body {
   .page-layout {
     padding: 0 6rem;
   }
+
+  .router-link-active {
+    color: var(--neutral-brown);
+    border-bottom: 2px solid var(--neutral-brown);
+  }
 }

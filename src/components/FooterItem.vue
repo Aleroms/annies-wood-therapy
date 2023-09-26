@@ -36,12 +36,15 @@ export default {
   }
 }
 @media (min-width: 768px) {
+  .router-link-active {
+    color: red;
+  }
   .footer-container {
     justify-content: space-evenly;
     .links-container {
       flex-direction: row;
-      
-      a{
+
+      a {
         margin-right: 15px;
         font-size: 22px;
         font-weight: 800;
