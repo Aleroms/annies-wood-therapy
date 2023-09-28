@@ -1,7 +1,18 @@
 import heroTranslations from '@/assets/data/hero-es.json'
 import navTranslations from '@/assets/data/nav-es.json'
+import introTranslations from '@/assets/data/introduction-es.json'
+import aboutTranslations from '@/assets/data/about-es.json'
+import followTranslations from '@/assets/data/follow-es.json'
+import qualificationDescriptionTranslations from '@/assets/data/qualification-description-es.json'
+import servicesTranslations from '@/assets/data/services-es.json'
 
+//component-level translations over page-level translations
 export default {
   hero: heroTranslations,
-  nav: navTranslations
+  nav: navTranslations,
+  intro: introTranslations,
+  about: aboutTranslations,
+  follow: followTranslations,
+  qualification: qualificationDescriptionTranslations,
+  services: servicesTranslations
 }

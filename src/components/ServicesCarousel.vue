@@ -13,9 +13,9 @@
         :key="index"
         :style="`background-image: url(${service.image})`"
       >
-        <h2 class="slide-title">{{ service.title }}</h2>
+        <h2 class="slide-title">{{ $t(`services[${index}].title`) }}</h2>
         <div class="slide-container">
-          <p class="slide-content">{{ service.content }}</p>
+          <p class="slide-content">{{ $t(`services[${index}].content`) }}</p>
         </div>
       </SwiperSlide>
     </swiper>

@@ -1,0 +1,82 @@
+[
+  {
+    "image": "/images/massage-therapy.jpg",
+    "title": "Terapia de Masaje",
+    "content": "Sumérjase en el toque curativo de nuestros terapeutas expertos mientras liberan tensión, mejoran la circulación y mejoran la relajación a través de una variedad de técnicas de masaje adaptadas a sus necesidades.",
+    "alt": "terapia de masaje",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Reducción del estrés, mejora de la circulación y alivio de la tensión y el dolor muscular, dejándolo relajado y rejuvenecido."
+  },
+  {
+    "image": "/images/body-wraps.jpg",
+    "title": "Envolturas Corporales",
+    "content": "Experimente la máxima desintoxicación y rejuvenecimiento de la piel con nuestras envolturas corporales nutritivas, diseñadas para dejarlo sintiéndose refrescado y revitalizado.",
+    "alt": "envolturas corporales",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Experimente desintoxicación, mejora del tono de la piel y relajación mejorada, cuidando su piel y promoviendo una sensación de bienestar."
+  },
+  {
+    "image": "/images/lymphatic-draining.jpg",
+    "title": "Drenaje Linfático",
+    "content": "Nuestras sesiones de drenaje linfático promueven una circulación saludable, reducen la inflamación y mejoran los procesos naturales de desintoxicación de su cuerpo, apoyando el bienestar general.",
+    "alt": "drenaje linfático",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Disfrute de los beneficios de una circulación mejorada, reducción de la inflamación y desintoxicación efectiva, fomentando la salud y la vitalidad en general."
+  },
+  {
+    "image": "/images/facial-cupping.jpg",
+    "title": "Facial con Ventosas",
+    "content": "Revele la radiante naturalidad de su piel con nuestros tratamientos faciales con ventosas, que mejoran el flujo sanguíneo, reducen la hinchazón y promueven una tez juvenil.",
+    "alt": "facial con ventosas",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Disfrute de una piel más suave y juvenil con menos hinchazón, mejor flujo sanguíneo y una tez rejuvenecida."
+  },
+  {
+    "image": "/images/thermal-plaster-therapy.jpg",
+    "title": "Terapia de Plaster Térmico",
+    "content": "Alivie el dolor y la rigidez muscular con nuestra terapia de plaster térmico, un tratamiento calmante y terapéutico que proporciona un alivio profundo y relajación.",
+    "alt": "terapia de plaster térmico",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Alivie la incomodidad muscular, calme la rigidez y experimente una relajación profunda, ofreciendo un alivio y tranquilidad profundos."
+  },
+  {
+    "image": "/images/thai-reflexology.jpg",
+    "title": "Reflexología Tailandesa",
+    "content": "Reequilibre el flujo de energía de su cuerpo a través de la reflexología tailandesa, un masaje holístico de pies que se enfoca en puntos de presión específicos para aliviar el estrés y promover el bienestar.",
+    "alt": "reflexología tailandesa",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Restaure el equilibrio y la vitalidad estimulando puntos de presión clave en sus pies, fomentando la relajación y el bienestar holístico."
+  },
+  {
+    "image": "/images/test.jpg",
+    "title": "Terapia de Madera Relajante",
+    "content": "Sumérjase en el antiguo arte de la terapia de madera, donde se utilizan herramientas de madera especializadas para esculpir y contornear su cuerpo, promoviendo la relajación, la circulación y la tonificación.",
+    "alt": "terapia de madera relajante",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Esculpa los contornos de su cuerpo, mejore la circulación y promueva la tonificación muscular, fomentando la relajación y una renovada confianza en sí mismo."
+  },
+  {
+    "image": "/images/cryotherapy.jpg",
+    "title": "Crioterapia",
+    "content": "Descubra los beneficios rejuvenecedores de la crioterapia, una técnica de terapia en frío que reduce la inflamación, promueve la curación y lo deja sintiéndose refrescado y vigorizado.",
+    "alt": "crioterapia",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Descubra los efectos estimulantes de la reducción de la inflamación, la mejora de la curación y la sensación de frescura y revitalización, tanto mental como físicamente."
+  }
+]

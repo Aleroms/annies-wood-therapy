@@ -16,5 +16,8 @@ export default {
 <style lang="scss" scoped>
 .logo{
   display: flex;
+  h3{
+    padding-bottom: 5px;
+  }
 }
 </style>

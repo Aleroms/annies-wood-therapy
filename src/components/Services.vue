@@ -1,12 +1,12 @@
 <template>
   <section class="services-container">
-    <h2 class="title">services</h2>
+    <h2 class="title">{{ $t('nav.services') }}</h2>
     <p class="subtitle">
       {{ subtitle.content }}
     </p>
     <div class="services-list">
       <ArticleCard
-        v-for="(service, index) in services"
+        v-for="(service, index) in localeObject"
         :key="index"
         :info="service"
         :flexDirection="direction"
@@ -43,6 +43,21 @@ export default {
         dir = 'row-reverse'
       }
       return dir
+    },
+    localeObject() {
+      let retArr = []
+      for (let i = 0; i < this.services.length; i++) {
+        let tmp = {
+          title: this.$t(`services[${i}].title`),
+          content: this.$t(`services[${i}].content`),
+          benefit: this.$t(`services[${i}].benefit`),
+          image: this.services[i].image,
+          alt: this.services[i].alt
+        }
+        retArr.push(tmp)
+      }
+      console.log(retArr)
+      return retArr
     }
   },
   mounted() {

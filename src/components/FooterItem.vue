@@ -2,9 +2,9 @@
   <div class="footer-container">
     <Logo />
     <div class="links-container">
-      <RouterLink class="link" to="/about">About</RouterLink>
-      <RouterLink class="link" to="/services">Services</RouterLink>
-      <RouterLink class="link" to="/contact">Contact</RouterLink>
+      <RouterLink class="link" to="/about">{{ $t('nav.about') }}</RouterLink>
+      <RouterLink class="link" to="/services">{{ $t('nav.services') }}</RouterLink>
+      <RouterLink class="link" to="/contact">{{ $t('nav.contact') }}</RouterLink>
     </div>
   </div>
 </template>

@@ -24,6 +24,11 @@ vue i18n: `npm install vue-i18n@9`
 - [Internationalization](https://vue-i18n.intlify.dev/guide/) - Vue's recommendation for internalization.
 - [Language Codes](https://www.science.co.il/language/Locale-codes.php) - Language Codes
 
+### useful tips
+
+- for interating over json array to extract key properties to use in the i18n use this. For example,
+  ``<p>{{ $t(`services[${index}].title`)}}</p>``
+
 ## Problems I Encountered
 
 I wasn't able to target the `swiper-pagination-bullet-active` and `swiper-button-next`. The issue was resolved by adding the css code globally in my main.css instead of in the component-level. Same thing for `router-link-active`

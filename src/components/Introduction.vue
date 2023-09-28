@@ -1,7 +1,7 @@
 <template>
   <section class="brown-container">
     <ArticleCard
-      :info="introData"
+      :info="localeObject"
       :flexDirection="direction"
       textColor="white"
       backgroundColor="lightBrown"
@@ -28,6 +28,18 @@ export default {
         dir = 'row-reverse'
       }
       return dir
+    },
+    localeObject() {
+      return {
+        title: this.$t('intro.title'),
+        content: this.$t('intro.content'),
+        image: this.$t('intro.image'),
+        alt: this.$t('intro.alt'),
+        showButton: false,
+        link: '',
+        message: '',
+        benefit: ''
+      }
     }
   },
   methods: {

@@ -1,7 +1,7 @@
 <template>
   <section class="about-container">
     <ArticleCard
-      :info="about"
+      :info="localeObject"
       :flexDirection="direction"
       textColor="brown"
       backgroundColor="light-brown"
@@ -28,6 +28,18 @@ export default {
         dir = 'row'
       }
       return dir
+    },
+    localeObject() {
+      return {
+        title: this.$t('about.title'),
+        content: this.$t('about.content'),
+        image: this.$t('about.image'),
+        alt: this.$t('about.alt'),
+        showButton: true,
+        link: 'contact',
+        message: this.$t('about.message'),
+        benefit: ''
+      }
     }
   },
   methods: {

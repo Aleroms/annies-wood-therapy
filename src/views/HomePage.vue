@@ -16,13 +16,11 @@ export default {
     <Introduction />
     <About />
     <section class="services-carousel-container brown-container">
-      <h2>Services</h2>
+      <h2>{{ $t('nav.services') }}</h2>
       <ServicesCarousel />
     </section>
     <Follow />
   </div>
 </template>
 
-<style lang="scss" scoped>
-
-</style>
+<style lang="scss" scoped></style>

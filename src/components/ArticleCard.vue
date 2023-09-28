@@ -111,7 +111,7 @@ export default {
     max-width: 700px;
     margin: 0 1rem;
   }
-  .image-wrapper img{
+  .image-wrapper img {
     min-width: 275px;
   }
 }

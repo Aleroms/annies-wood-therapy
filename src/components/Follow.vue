@@ -1,10 +1,10 @@
 <template>
   <section class="follow-container">
     <div class="content">
-      <h2>{{ follow.title }}</h2>
-      <p class="text-brown center">{{ follow.content }}</p>
-      <p class="text-brown center">{{ follow.instagram }}</p>
-      <p class="text-brown center">{{ follow.call_or_text }}</p>
+      <h2>{{ $t('follow.title') }}</h2>
+      <p class="text-brown center">{{ $t('follow.content') }}</p>
+      <p class="text-brown center">{{ $t('follow.instagram') }}</p>
+      <p class="text-brown center">{{ $t('follow.call_or_text') }}</p>
       <p class="text-brown center">{{ follow.phone_number }}</p>
     </div>
   </section>
@@ -43,7 +43,7 @@ export default {
   }
   .content {
     max-width: 850px;
-    p{
+    p {
       padding: 0 3rem;
     }
   }
