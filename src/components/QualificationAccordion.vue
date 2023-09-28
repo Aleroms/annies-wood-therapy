@@ -48,12 +48,12 @@ export default {
       let retArr = []
       for (let i = 0; i < this.qualifications.length; i++) {
         let tmp = {
-          title: this.$t(`qualification[${i}].title`),
-          content: this.$t(`qualification[${i}].content`)
+          title: this.$t(`qualifications[${i}].title`),
+          content: this.$t(`qualifications[${i}].content`)
         }
         retArr.push(tmp)
       }
-      console.log(retArr)
+
       return retArr
     }
   }

@@ -15,7 +15,8 @@
       >
         <h2 class="slide-title">{{ $t(`services[${index}].title`) }}</h2>
         <div class="slide-container">
-          <p class="slide-content">{{ $t(`services[${index}].content`) }}</p>
+          <!-- <p class="slide-content">{{ $t(`services[${index}].content`) }}</p> -->
+          <p class="slide-content">{{ truncateContent(index) }}</p>
         </div>
       </SwiperSlide>
     </swiper>
@@ -39,7 +40,8 @@ export default {
     return {
       services: SERVICES_DATA,
       modules: [Pagination, Navigation],
-      windowWidth: window.innerWidth
+      windowWidth: window.innerWidth,
+      charLimit: 140
     }
   },
   computed: {
@@ -56,10 +58,20 @@ export default {
   methods: {
     handleResize() {
       this.windowWidth = window.innerWidth
+    },
+    truncateContent(index) {
+      const fullContent = this.$t(`services[${index}].content`)
+
+      if (fullContent.length > this.charLimit) {
+        return fullContent.substring(0, this.charLimit) + '...'
+      }
+
+      return fullContent
     }
   },
   mounted() {
     window.addEventListener('resize', this.handleResize)
+    console.log(this.$t('services[0].title'))
   },
   unmounted() {
     window.removeEventListener('resize', this.handleResize)

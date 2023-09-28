@@ -3,7 +3,7 @@
     <div class="content">
       <h2>{{ $t('follow.title') }}</h2>
       <p class="text-brown center">{{ $t('follow.content') }}</p>
-      <p class="text-brown center">{{ $t('follow.instagram') }}</p>
+      <p class="text-brown center">{{ $t('follow.instagram') + instagram_handle}}</p>
       <p class="text-brown center">{{ $t('follow.call_or_text') }}</p>
       <p class="text-brown center">{{ follow.phone_number }}</p>
     </div>
@@ -16,7 +16,8 @@ export default {
   name: 'FollowItem',
   data() {
     return {
-      follow: FOLLOW_DATA
+      follow: FOLLOW_DATA,
+      instagram_handle: '@yajayrac19'
     }
   }
 }
