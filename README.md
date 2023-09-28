@@ -6,7 +6,9 @@ started on 09/11/2023.
 
 ## post mortem
 
-I started this project by considering how I can optimize dev time and keep my code dry. I chose to complete `HTML` for all routes and then continue adding `CSS` after.
+I started this project by considering how I can optimize dev time and keep my code dry. I chose to complete `HTML` for all routes and then continue adding `CSS` after. 
+
+One thing I noticed that I could have improved so that next time it will be faster is creating separate components. I created Article Card so that it could include a button, but most components do not include button. I should have created two article cards where one would include a button and the other would not.
 
 ## installation instructions
 
