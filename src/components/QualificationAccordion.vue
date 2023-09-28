@@ -1,19 +1,19 @@
 <template>
   <div class="qualification-list">
     <!-- Loop through your qualification items -->
-    <div v-for="(qualification, index) in qualifications" :key="index" class="qualification-item">
+    <div v-for="(qualification, index) in localeObject" :key="index" class="qualification-item">
       <div
         class="qualification-header"
         @click="toggleAccordion(index)"
         :class="{ open: isOpen(index) }"
       >
-        <h3>{{ qualification.title }}</h3>
+        <h3>{{ $t(`qualifications[${index}].title`) }}</h3>
         <font-awesome-icon icon="fa-solid fa-chevron-up" color="ivory" v-if="isOpen(index)" />
         <font-awesome-icon icon="fa-solid fa-chevron-down" color="ivory" v-else />
       </div>
       <!-- Display the content when the accordion is open -->
       <div v-if="isOpen(index)" class="qualification-content">
-        <p class="qualification-content-text">{{ qualification.content }}</p>
+        <p class="qualification-content-text">{{ $t(`qualifications[${index}].content`) }}</p>
       </div>
     </div>
   </div>
@@ -41,6 +41,20 @@ export default {
     isOpen(index) {
       // Check if the accordion at the specified index is open
       return this.openAccordionIndex === index
+    }
+  },
+  computed: {
+    localeObject() {
+      let retArr = []
+      for (let i = 0; i < this.qualifications.length; i++) {
+        let tmp = {
+          title: this.$t(`qualification[${i}].title`),
+          content: this.$t(`qualification[${i}].content`)
+        }
+        retArr.push(tmp)
+      }
+      console.log(retArr)
+      return retArr
     }
   }
 }
@@ -88,8 +102,8 @@ export default {
 .qualification-item:last-child .qualification-content {
   border-bottom: none;
 }
-@media(min-width: 768px){
-  .qualification-list{
+@media (min-width: 768px) {
+  .qualification-list {
     width: 450px;
   }
 }
