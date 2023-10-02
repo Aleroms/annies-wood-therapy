@@ -52,17 +52,17 @@
   {
     "image": "/images/thai-reflexology.jpg",
     "title": "Reflexología Tailandesa",
-    "content": "Reequilibre el flujo de energía de su cuerpo a través de la reflexología tailandesa, un masaje holístico de pies que se enfoca en puntos de presión específicos para aliviar el estrés y promover el bienestar.",
+    "content": "La reflexología tailandesa se basa en la idea de que cada parte del cuerpo está conectada a través de los nervios de las manos y los pies. Trabaja los puntos reflejos más importantes y utiliza aceites especiales e instrumentos de madera diseñados anatómicamente que ayudan a relajar y activar ciertos puntos terapéuticos. Estas áreas y puntos específicos corresponden a diferentes órganos y sistemas del cuerpo que, una vez ejercida la presión, estimulan y desencadenan una respuesta en la zona correspondiente del cuerpo.",
     "alt": "reflexología tailandesa",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Restaure el equilibrio y la vitalidad estimulando puntos de presión clave en sus pies, fomentando la relajación y el bienestar holístico."
+    "benefit": "Mejora la circulación y eliminación de toxinas, reduce la rigidez y mejora la reflectividad, fortalece el sistema inmunológico, reduce el estrés induciendo un estado de relajación profunda, acelera la curación física."
   },
   {
     "image": "/images/test.jpg",
     "title": "Terapia de Madera Relajante",
-    "content": "Sumérjase en el antiguo arte de la terapia de madera, donde se utilizan herramientas de madera especializadas para esculpir y contornear su cuerpo, promoviendo la relajación, la circulación y la tonificación.",
+    "content": "Esta técnica holística utiliza múltiples accesorios fabricados en madera de diferentes formas, tamaños y diseños. Estos instrumentos se adaptan a diferentes partes del cuerpo, logrando una estimulación corporal. Este método natural puede ayudar a reducir los niveles de estrés y activar la renovación celular. Además, erradica las contracturas provocadas por la actividad física y la postura, aliviando dolores y molestias tanto en músculos como en articulaciones.",
     "alt": "terapia de madera relajante",
     "showButton": false,
     "link": "",
@@ -72,11 +72,21 @@
   {
     "image": "/images/cryotherapy.jpg",
     "title": "Crioterapia",
-    "content": "Descubra los beneficios rejuvenecedores de la crioterapia, una técnica de terapia en frío que reduce la inflamación, promueve la curación y lo deja sintiéndose refrescado y vigorizado.",
+    "content": "La crioterapia es una técnica que utiliza el frío como método terapéutico para reducir tallas y mejorar la textura de la piel. Una caída de la temperatura corporal hace que nuestro cuerpo lo compense aumentando el metabolismo y extrayendo energía de los depósitos de grasa del cuerpo. El resultado es una reducción entre los tejidos adiposos, lo que ayuda a eliminar la celulitis y reafirmar la piel.",
     "alt": "crioterapia",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Descubra los efectos estimulantes de la reducción de la inflamación, la mejora de la curación y la sensación de frescura y revitalización, tanto mental como físicamente."
+    "benefit": "Mejora y aumenta el metabolismo celular. Ayuda a eliminar toxinas. Reduce la celulitis. Mejora el metabolismo digestivo. Mejora el metabolismo renal aumentando la diuresis. Reduce las estrías. Acción antiinflamatoria. Promueve la contracción muscular."
+  },
+  {
+    "image": "/images/thermotherapy.jpg",
+    "title": "Termoterapia",
+    "content": "La termoterapia es una técnica que aumenta la temperatura de la piel para suavizar su tejido adiposo y reducir la grasa. Se diluye por acción térmica y se acelera el sistema circulatorio para la rápida expulsión de las grasas. El calor aumenta la temperatura corporal, aumentando así el metabolismo basal para estimular la lipólisis, que es la reducción de los adipocitos, células que almacenan grasa.",
+    "alt": "thermotherapy",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Promueve la salud física, favorece un mejor sueño, estimula el sistema inmunológico, desintoxica el organismo, mejora la circulación sanguínea."
   }
 ]

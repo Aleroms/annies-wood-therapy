@@ -4,6 +4,8 @@
       <h2 class="heading">{{ $t('qualification.title') }}</h2>
       <p class="text-brown">{{ $t('qualification.content1') }}</p>
       <p class="text-brown">{{ $t('qualification.content2') }}</p>
+      <p class="text-brown">{{ $t('qualification.content4') }}</p>
+      <p class="text-brown">{{ $t('qualification.content3') }}</p>
     </div>
     <QualificationAccordion />
   </section>

@@ -77,19 +77,19 @@ export default {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.625rem 2rem;
-  cursor: pointer; /* Add cursor pointer to indicate clickability */
-  transition: border-bottom 0.3s ease; /* Add a transition for a smooth effect */
+  padding: 0.625rem 2rem 0.625rem 0.425rem;
+  font-size: 14px;
+  cursor: pointer; 
+  transition: border-bottom 0.3s ease; 
 }
 
-/* Apply additional styles when the accordion is open */
 .qualification-header.open {
-  border-bottom: none; /* Remove the bottom border when open */
+  border-bottom: none; 
 }
 
 .qualification-content {
-  padding: 0.625rem 2rem;
-  display: none; /* Hide content by default */
+  padding: 0.625rem 1rem;
+  display: none; 
   color: ivory;
 }
 
@@ -98,7 +98,6 @@ export default {
   display: block;
 }
 
-/* Remove the border at the bottom of the last item */
 .qualification-item:last-child .qualification-content {
   border-bottom: none;
 }

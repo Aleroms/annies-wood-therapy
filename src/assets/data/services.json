@@ -52,17 +52,17 @@
   {
     "image": "/images/thai-reflexology.jpg",
     "title": "Thai Reflexology",
-    "content": "Rebalance your body's energy flow through Thai reflexology, a holistic foot massage that targets specific pressure points to alleviate stress and promote well-being.",
+    "content": "Thai reflexology is based on the idea that each part of the body is connected through the nerves of the hands and feet. It works on the most important reflex points and uses special oils and anatomically designed wooden instruments that help relax and activate certain therapeutic points. These specific areas and points correspond to different organs and systems of the body that, once the pressure is exerted, stimulate and trigger a response in the corresponding area of the body.",
     "alt": "Thai reflexology",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Restore balance and vitality by stimulating key pressure points in your feet, encouraging relaxation and holistic wellness."
+    "benefit": "Improves circulation and elimination of toxins, reduces stiffness and improves reflectivity, strengthens the immune system, reduces stress by inducing a state of deep relaxation, accelerates physical healing."
   },
   {
     "image": "/images/test.jpg",
     "title": "Relaxing Wood Therapy",
-    "content": "Immerse yourself in the ancient art of wood therapy, where specialized wooden tools are used to sculpt and contour your body, promoting relaxation, circulation, and toning.",
+    "content": "This holistic technique uses multiple accessories made of wood of different shapes, sizes and designs. These instruments adapt to different parts of the body, achieving body stimulation. This natural method can help reduce stress levels and activate cell renewal. Also, it eradicates contractures caused by physical activity and posture, relieving pain and discomfort in both muscles and joints.",
     "alt": "relaxing wood therapy",
     "showButton": false,
     "link": "",
@@ -72,11 +72,21 @@
   {
     "image": "/images/cryotherapy.jpg",
     "title": "Cryotherapy",
-    "content": "Discover the rejuvenating benefits of cryotherapy, a cold therapy technique that reduces inflammation, promotes healing, and leaves you feeling refreshed and invigorated.",
+    "content": "Cryotherapy is a technique that uses cold as a therapeutic method to reduce sizes and improve skin texture. A drop in body temperature causes our body to compensate by increasing metabolism and drawing energy from the body's fat deposits. The result is a reduction between adipose tissues, which helps to eliminate cellulite and firm the skin.",
     "alt": "cryotherapy",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Discover the invigorating effects of reduced inflammation, enhanced healing, and feeling refreshed and revitalized, both mentally and physically."
+    "benefit": "Improves and increases cell metabolism. Helps eliminate toxins. Reduces cellulite. Improves digestive metabolism. Improves renal metabolism by increasing diuresis. Reduces stretch marks. Anti-inflammatory action. Promotes muscle contraction."
+  },
+  {
+    "image": "/images/thermotherapy.jpg",
+    "title": "Thermotherapy",
+    "content": "Thermotherapy is a technique that increases the temperature of the skin to soften its adipose tissue and reduce fat.It is diluted by thermal action and the circulatory system is accelerated for the fast expulsion of fats. Heat increases body temperature, thus increasing basal metabolism to stimulate lipolysis, which is the reduction of adipocytes, cells that store fat.",
+    "alt": "thermotherapy",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Improves and increases cell metabolism. Helps eliminate toxins. Reduces cellulite. Improves digestive metabolism. Improves renal metabolism by increasing diuresis. Reduces stretch marks. Anti-inflammatory action. Promotes muscle contraction."
   }
 ]
