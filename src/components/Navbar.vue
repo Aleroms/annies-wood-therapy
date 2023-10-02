@@ -3,22 +3,26 @@
     <!-- mobile -->
     <div v-if="isMobile" class="mobile">
       <Logo @click="closeMenu('/home')" />
-      <font-awesome-icon
-        icon="fa-solid fa-bars"
-        size="2x"
-        color="seashell"
-        v-if="!toggleHamburger"
-        @click="hamburger"
-        class="hamburger"
-      />
-      <font-awesome-icon
-        icon="fa-solid fa-x"
-        size="2x"
-        color="seashell"
-        v-else
-        @click="hamburger"
-        class="hamburger"
-      />
+      <div class="ui">
+        <I18nToggler />
+        <font-awesome-icon
+          icon="fa-solid fa-bars"
+          size="2x"
+          color="seashell"
+          v-if="!toggleHamburger"
+          @click="hamburger"
+          class="hamburger"
+        />
+        <font-awesome-icon
+          icon="fa-solid fa-x"
+          size="2x"
+          color="seashell"
+          v-else
+          @click="hamburger"
+          class="hamburger"
+        />
+      </div>
+
       <div class="sidebar" :class="{ open: toggleHamburger }">
         <div class="sidebar-container">
           <a class="nav-link" @click="closeMenu('home')">Home</a>
@@ -79,6 +83,12 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.ui {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100px;
+}
 .navbar {
   padding: 1rem;
   padding-right: 2.625rem;
