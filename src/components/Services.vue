@@ -2,7 +2,7 @@
   <section class="services-container">
     <h2 class="title">{{ $t('nav.services') }}</h2>
     <p class="subtitle">
-      {{ subtitle.content }}
+      {{ $t('service_subtitle.content') }}
     </p>
     <div class="services-list">
       <ArticleCard

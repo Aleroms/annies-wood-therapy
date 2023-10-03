@@ -5,6 +5,7 @@ import aboutTranslations from '@/assets/data/about-es.json'
 import followTranslations from '@/assets/data/follow-es.json'
 import qualificationDescriptionTranslations from '@/assets/data/qualification-description-es.json'
 import qualificationTranslations from '@/assets/data/qualification-es.json'
+import serviceSubtitleTranslations from '@/assets/data/service_subtitle-es.json'
 import servicesTranslations from '@/assets/data/services-es.json'
 
 //component-level translations over page-level translations
@@ -16,5 +17,6 @@ export default {
   follow: followTranslations,
   qualification: qualificationDescriptionTranslations,
   qualifications: qualificationTranslations,
-  services: servicesTranslations
+  services: servicesTranslations,
+  service_subtitle: serviceSubtitleTranslations
 }

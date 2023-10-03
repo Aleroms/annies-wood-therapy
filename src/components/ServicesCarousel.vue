@@ -82,6 +82,7 @@ export default {
 <style lang="scss" scoped>
 .slide-title {
   margin: 1rem;
+  font-size: 21px;
   z-index: 2;
 }
 .slide-container {
