@@ -10,6 +10,7 @@
       </div>
 
       <ButtonItem v-if="info.showButton" :message="info.message" :link="info.link" class="link" />
+      <h3 v-if="info.price" class="price white">price ${{ info.price }}</h3>
     </article>
     <div class="image-wrapper">
       <img :src="info.image" :alt="info.alt" />
@@ -44,6 +45,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+.price{
+  margin-top: 10px;
+}
 .light-brown {
   background-color: var(--neutral-brown);
 }

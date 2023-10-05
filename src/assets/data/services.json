@@ -7,7 +7,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Reduced stress, improved circulation, and relief from tension and muscle pain, leaving you relaxed and rejuvenated."
+    "benefit": "Reduced stress, improved circulation, and relief from tension and muscle pain, leaving you relaxed and rejuvenated.",
+    "price": 10
   },
   {
     "image": "/images/body-wraps.jpg",
@@ -17,7 +18,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Experience detoxification, improved skin tone, and enhanced relaxation, nurturing your skin and promoting a sense of well-being."
+    "benefit": "Experience detoxification, improved skin tone, and enhanced relaxation, nurturing your skin and promoting a sense of well-being.",
+    "price": 10
   },
   {
     "image": "/images/lymphatic-draining.jpg",
@@ -27,7 +29,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Reap the rewards of enhanced circulation, reduced inflammation, and effective detoxification, fostering overall health and vitality."
+    "benefit": "Reap the rewards of enhanced circulation, reduced inflammation, and effective detoxification, fostering overall health and vitality.",
+    "price": 10
   },
   {
     "image": "/images/facial-cupping.jpg",
@@ -37,7 +40,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Enjoy smoother, more youthful skin with reduced puffiness, improved blood flow, and a rejuvenated complexion."
+    "benefit": "Enjoy smoother, more youthful skin with reduced puffiness, improved blood flow, and a rejuvenated complexion.",
+    "price": 10
   },
   {
     "image": "/images/thermal-plaster-therapy.jpg",
@@ -47,7 +51,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Alleviate muscle discomfort, soothe stiffness, and experience deep relaxation, offering profound relief and tranquility."
+    "benefit": "Alleviate muscle discomfort, soothe stiffness, and experience deep relaxation, offering profound relief and tranquility.",
+    "price": 10
   },
   {
     "image": "/images/thai-reflexology.jpg",
@@ -57,7 +62,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Improves circulation and elimination of toxins, reduces stiffness and improves reflectivity, strengthens the immune system, reduces stress by inducing a state of deep relaxation, accelerates physical healing."
+    "benefit": "Improves circulation and elimination of toxins, reduces stiffness and improves reflectivity, strengthens the immune system, reduces stress by inducing a state of deep relaxation, accelerates physical healing.",
+    "price": 10
   },
   {
     "image": "/images/test.jpg",
@@ -67,7 +73,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Sculpt your body contours, improve circulation, and promote muscle toning, fostering relaxation and a renewed sense of confidence."
+    "benefit": "Sculpt your body contours, improve circulation, and promote muscle toning, fostering relaxation and a renewed sense of confidence.",
+    "price": 10
   },
   {
     "image": "/images/cryotherapy.jpg",
@@ -77,7 +84,8 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Improves and increases cell metabolism. Helps eliminate toxins. Reduces cellulite. Improves digestive metabolism. Improves renal metabolism by increasing diuresis. Reduces stretch marks. Anti-inflammatory action. Promotes muscle contraction."
+    "benefit": "Improves and increases cell metabolism. Helps eliminate toxins. Reduces cellulite. Improves digestive metabolism. Improves renal metabolism by increasing diuresis. Reduces stretch marks. Anti-inflammatory action. Promotes muscle contraction.",
+    "price": 10
   },
   {
     "image": "/images/thermotherapy.jpg",
@@ -87,6 +95,7 @@
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Improves and increases cell metabolism. Helps eliminate toxins. Reduces cellulite. Improves digestive metabolism. Improves renal metabolism by increasing diuresis. Reduces stretch marks. Anti-inflammatory action. Promotes muscle contraction."
+    "benefit": "Improves and increases cell metabolism. Helps eliminate toxins. Reduces cellulite. Improves digestive metabolism. Improves renal metabolism by increasing diuresis. Reduces stretch marks. Anti-inflammatory action. Promotes muscle contraction.",
+    "price": 10
   }
 ]

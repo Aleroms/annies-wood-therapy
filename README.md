@@ -6,9 +6,9 @@ started on 09/11/2023.
 
 ## post mortem
 
-I started this project by considering how I can optimize dev time and keep my code dry. I chose to complete `HTML` for all routes and then continue adding `CSS` after. 
+I started this project by considering how I can optimize dev time and keep my code dry. I chose to complete `HTML` for all routes and then continue adding `CSS` after.
 
-One thing I noticed that I could have improved so that next time it will be faster is creating separate components. I created Article Card so that it could include a button, but most components do not include button. I should have created two article cards where one would include a button and the other would not.
+One thing I noticed that I could have improved so that next time it will be faster is creating separate components. I created Article Card so that it could include a button, but most components do not include button. I should have created two article cards where one would include a button and the other would not. By coding this way, I only complicated and tangled my code. But, I did so because the logic was similar. My issue though, was to insert logic for structure. Article Card should have only been a template for the structure, and then I would insert the logic itself into the component. Kind of like having this... `<ArticleCard type='example'><!--logic here--></ArticleCard>`
 
 ## installation instructions
 

@@ -38,7 +38,7 @@ export default {
   },
   computed: {
     direction() {
-      let dir = 'column'
+      let dir = 'column-reverse'
       if (this.windowWidth >= 768) {
         dir = 'row-reverse'
       }
@@ -52,7 +52,8 @@ export default {
           content: this.$t(`services[${i}].content`),
           benefit: this.$t(`services[${i}].benefit`),
           image: this.services[i].image,
-          alt: this.services[i].alt
+          alt: this.services[i].alt,
+          price: this.services[i].price
         }
         retArr.push(tmp)
       }
