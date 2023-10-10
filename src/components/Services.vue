@@ -53,7 +53,8 @@ export default {
           benefit: this.$t(`services[${i}].benefit`),
           image: this.services[i].image,
           alt: this.services[i].alt,
-          price: this.services[i].price
+          price: this.services[i].price,
+          session: this.$t(`services[${i}].session`)
         }
         retArr.push(tmp)
       }

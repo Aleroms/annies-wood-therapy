@@ -1,6 +1,6 @@
 [
   {
-    "image": "/images/body-sculpting.png",
+    "image": "/images/test.jpg",
     "title": "Body Sculpting",
     "content": "Our body sculpting treatments utilize specialized wood therapy techniques to contour and shape your body, helping you achieve the silhouette you desire.",
     "alt": "body sculpting",
@@ -19,8 +19,7 @@
     "link": "",
     "message": "",
     "benefit": "Reduced stress, improved circulation, and relief from tension and muscle pain, leaving you relaxed and rejuvenated.",
-    "price": 150,
-    "session": ""
+    "price": 150
   },
   {
     "image": "/images/thai-reflexology.jpg",
@@ -31,53 +30,48 @@
     "link": "",
     "message": "",
     "benefit": "Improves circulation and elimination of toxins, reduces stiffness and improves reflectivity, strengthens the immune system, reduces stress by inducing a state of deep relaxation, accelerates physical healing.",
-    "price": 150,
-    "session": ""
+    "price": 150
   },
   {
-    "image": "/images/arm-reduction.jpg",
+    "image": "/images/test.jpg",
     "title": "Arm Reduction",
     "content": "Our arm reduction sessions target specific areas to reduce excess fat and promote toning, leaving you with firmer, more slender arms.",
     "showButton": false,
     "link": "",
     "message": "",
     "benefit": "Enjoy slimmer, toned arms and increased confidence with reduced flabbiness and enhanced muscle definition.",
-    "price": 80,
-    "session": ""
+    "price": 80
   },
   {
-    "image": "/images/double-chin.jpg",
+    "image": "/images/test.jpg",
     "title": "Double Chin Reduction",
     "content": "Say goodbye to unwanted double chin with our double chin reduction treatments, designed to tighten and tone the area for a more defined jawline.",
     "showButton": false,
     "link": "",
     "message": "",
     "benefit": "Achieve a more youthful appearance and improved jawline definition, boosting your self-esteem and overall facial harmony.",
-    "price": 80,
-    "session": ""
+    "price": 80
   },
 
   {
-    "image": "/images/cellulite.jpg",
+    "image": "/images/test.jpg",
     "title": "Cellulite Treatment",
     "content": "Our cellulite treatments target cellulite's appearance, promoting smoother, firmer skin and increased body confidence.",
     "showButton": false,
     "link": "",
     "message": "",
     "benefit": "Experience improved skin texture, reduced cellulite, and increased confidence in your appearance with our effective cellulite treatments.",
-    "price": 100,
-    "session": ""
+    "price": 100
   },
   {
-    "image": "/images/butt-lifting.jpg",
+    "image": "/images/test.jpg",
     "title": "Butt Lifting",
     "content": "Transform and lift your buttocks with our specialized wood therapy techniques, enhancing shape and contour for a more lifted appearance.",
     "showButton": false,
     "link": "",
     "message": "",
     "benefit": "Enjoy a lifted, shapelier buttocks, improved confidence, and enhanced overall lower body aesthetics with our butt lifting treatments.",
-    "price": 100,
-    "session": ""
+    "price": 100
   },
   {
     "image": "/images/facial-cupping.jpg",
@@ -88,8 +82,7 @@
     "link": "",
     "message": "",
     "benefit": "Enjoy smoother, more youthful skin with reduced puffiness, improved blood flow, and a rejuvenated complexion.",
-    "price": 120,
-    "session": ""
+    "price": 120
   },
   {
     "image": "/images/lymphatic-draining.jpg",
@@ -100,8 +93,7 @@
     "link": "",
     "message": "",
     "benefit": "Reap the rewards of enhanced circulation, reduced inflammation, and effective detoxification, fostering overall health and vitality.",
-    "price": 110,
-    "session": ""
+    "price": 1
   },
   {
     "image": "/images/body-wraps.jpg",
@@ -112,8 +104,7 @@
     "link": "",
     "message": "",
     "benefit": "Experience detoxification, improved skin tone, and enhanced relaxation, nurturing your skin and promoting a sense of well-being.",
-    "price": 50,
-    "session": ""
+    "price": 50
   },
   {
     "image": "/images/test.jpg",
@@ -123,7 +114,6 @@
     "link": "",
     "message": "",
     "benefit": "Enhance your athletic performance, reduce muscle soreness, and accelerate recovery, enabling you to excel in your sports and fitness endeavors.",
-    "price": 150,
-    "session": ""
+    "price": 150
   }
 ]

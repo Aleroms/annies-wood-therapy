@@ -1,92 +1,124 @@
 [
   {
+    "image": "/images/test.jpg",
+    "title": "Escultura Corporal",
+    "content": "Nuestros tratamientos de escultura corporal utilizan técnicas especializadas de terapia con madera para contornear y dar forma a su cuerpo, ayudándole a lograr la silueta que desea.",
+    "alt": "body sculpting",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Experimente una mejor definición corporal, reducción de depósitos de grasa y una mayor confianza en uno mismo mientras esculpe su camino hacia una figura más contorneada.",
+    "session": "1 sesión $110, paquete de 6 sesiones $645"
+  },
+  {
     "image": "/images/massage-therapy.jpg",
-    "title": "Terapia de Masaje",
-    "content": "Sumérjase en el toque curativo de nuestros terapeutas expertos mientras liberan tensión, mejoran la circulación y mejoran la relajación a través de una variedad de técnicas de masaje adaptadas a sus necesidades.",
-    "alt": "terapia de masaje",
+    "title": "Masaje Relajante",
+    "content": "Disfrute del toque curativo de nuestros terapeutas expertos mientras liberan la tensión, mejoran la circulación y aumentan la relajación a través de una variedad de técnicas de masaje adaptadas a sus necesidades.",
+    "alt": "massage therapy",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Reducción del estrés, mejora de la circulación y alivio de la tensión y el dolor muscular, dejándolo relajado y rejuvenecido."
-  },
-  {
-    "image": "/images/body-wraps.jpg",
-    "title": "Envolturas Corporales",
-    "content": "Experimente la máxima desintoxicación y rejuvenecimiento de la piel con nuestras envolturas corporales nutritivas, diseñadas para dejarlo sintiéndose refrescado y revitalizado.",
-    "alt": "envolturas corporales",
-    "showButton": false,
-    "link": "",
-    "message": "",
-    "benefit": "Experimente desintoxicación, mejora del tono de la piel y relajación mejorada, cuidando su piel y promoviendo una sensación de bienestar."
-  },
-  {
-    "image": "/images/lymphatic-draining.jpg",
-    "title": "Drenaje Linfático",
-    "content": "Nuestras sesiones de drenaje linfático promueven una circulación saludable, reducen la inflamación y mejoran los procesos naturales de desintoxicación de su cuerpo, apoyando el bienestar general.",
-    "alt": "drenaje linfático",
-    "showButton": false,
-    "link": "",
-    "message": "",
-    "benefit": "Disfrute de los beneficios de una circulación mejorada, reducción de la inflamación y desintoxicación efectiva, fomentando la salud y la vitalidad en general."
-  },
-  {
-    "image": "/images/facial-cupping.jpg",
-    "title": "Facial con Ventosas",
-    "content": "Revele la radiante naturalidad de su piel con nuestros tratamientos faciales con ventosas, que mejoran el flujo sanguíneo, reducen la hinchazón y promueven una tez juvenil.",
-    "alt": "facial con ventosas",
-    "showButton": false,
-    "link": "",
-    "message": "",
-    "benefit": "Disfrute de una piel más suave y juvenil con menos hinchazón, mejor flujo sanguíneo y una tez rejuvenecida."
-  },
-  {
-    "image": "/images/thermal-plaster-therapy.jpg",
-    "title": "Terapia de Plaster Térmico",
-    "content": "Alivie el dolor y la rigidez muscular con nuestra terapia de plaster térmico, un tratamiento calmante y terapéutico que proporciona un alivio profundo y relajación.",
-    "alt": "terapia de plaster térmico",
-    "showButton": false,
-    "link": "",
-    "message": "",
-    "benefit": "Alivie la incomodidad muscular, calme la rigidez y experimente una relajación profunda, ofreciendo un alivio y tranquilidad profundos."
+    "benefit": "Reducción del estrés, mejora de la circulación y alivio de la tensión y el dolor muscular, dejándolo relajado y rejuvenecido.",
+    "price": 150,
+    "session": ""
   },
   {
     "image": "/images/thai-reflexology.jpg",
     "title": "Reflexología Tailandesa",
-    "content": "La reflexología tailandesa se basa en la idea de que cada parte del cuerpo está conectada a través de los nervios de las manos y los pies. Trabaja los puntos reflejos más importantes y utiliza aceites especiales e instrumentos de madera diseñados anatómicamente que ayudan a relajar y activar ciertos puntos terapéuticos. Estas áreas y puntos específicos corresponden a diferentes órganos y sistemas del cuerpo que, una vez ejercida la presión, estimulan y desencadenan una respuesta en la zona correspondiente del cuerpo.",
-    "alt": "reflexología tailandesa",
-    "showButton": false,
-    "link": "",
-    "message": "",
-    "benefit": "Mejora la circulación y eliminación de toxinas, reduce la rigidez y mejora la reflectividad, fortalece el sistema inmunológico, reduce el estrés induciendo un estado de relajación profunda, acelera la curación física."
+    "content": "La reflexología tailandesa se basa en la idea de que cada parte del cuerpo está conectada a través de los nervios de las manos y los pies. Trabaja en los puntos de reflexología más importantes y utiliza aceites especiales e instrumentos de madera diseñados anatómicamente que ayudan a relajar y activar ciertos puntos terapéuticos. Estas áreas y puntos específicos corresponden a diferentes órganos y sistemas del cuerpo que, una vez que se ejerce presión sobre ellos, estimulan y desencadenan una respuesta en la zona correspondiente del cuerpo.",
+    "benefit": "Mejora la circulación y la eliminación de toxinas, reduce la rigidez y mejora la reflexividad, fortalece el sistema inmunológico, reduce el estrés induciendo un estado de relajación profunda y acelera la curación física.",
+    "price": 150,
+    "session": ""
   },
   {
     "image": "/images/test.jpg",
-    "title": "Terapia de Madera Relajante",
-    "content": "Esta técnica holística utiliza múltiples accesorios fabricados en madera de diferentes formas, tamaños y diseños. Estos instrumentos se adaptan a diferentes partes del cuerpo, logrando una estimulación corporal. Este método natural puede ayudar a reducir los niveles de estrés y activar la renovación celular. Además, erradica las contracturas provocadas por la actividad física y la postura, aliviando dolores y molestias tanto en músculos como en articulaciones.",
-    "alt": "terapia de madera relajante",
+    "title": "Reducción de Brazos",
+    "content": "Nuestras sesiones de reducción de brazos se dirigen a áreas específicas para reducir el exceso de grasa y promover el tono, dejándolo con brazos más firmes y esbeltos.",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Esculpa los contornos de su cuerpo, mejore la circulación y promueva la tonificación muscular, fomentando la relajación y una renovada confianza en sí mismo."
+    "benefit": "Disfrute de brazos más delgados y tonificados y aumente la confianza con una reducción de flacidez y una mejora en la definición muscular.",
+    "price": 80,
+    "session": ""
   },
   {
-    "image": "/images/cryotherapy.jpg",
-    "title": "Crioterapia",
-    "content": "La crioterapia es una técnica que utiliza el frío como método terapéutico para reducir tallas y mejorar la textura de la piel. Una caída de la temperatura corporal hace que nuestro cuerpo lo compense aumentando el metabolismo y extrayendo energía de los depósitos de grasa del cuerpo. El resultado es una reducción entre los tejidos adiposos, lo que ayuda a eliminar la celulitis y reafirmar la piel.",
-    "alt": "crioterapia",
+    "image": "/images/test.jpg",
+    "title": "Reducción de Papada",
+    "content": "Diga adiós a la papada no deseada con nuestros tratamientos de reducción de papada, diseñados para tensar y tonificar la zona para un contorno de mandíbula más definido.",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Mejora y aumenta el metabolismo celular. Ayuda a eliminar toxinas. Reduce la celulitis. Mejora el metabolismo digestivo. Mejora el metabolismo renal aumentando la diuresis. Reduce las estrías. Acción antiinflamatoria. Promueve la contracción muscular."
+    "benefit": "Logre una apariencia más juvenil y una mejora en la definición de la mandíbula, aumentando su autoestima y la armonía facial en general.",
+    "price": 80,
+    "session": ""
   },
   {
-    "image": "/images/thermotherapy.jpg",
-    "title": "Termoterapia",
-    "content": "La termoterapia es una técnica que aumenta la temperatura de la piel para suavizar su tejido adiposo y reducir la grasa. Se diluye por acción térmica y se acelera el sistema circulatorio para la rápida expulsión de las grasas. El calor aumenta la temperatura corporal, aumentando así el metabolismo basal para estimular la lipólisis, que es la reducción de los adipocitos, células que almacenan grasa.",
-    "alt": "thermotherapy",
+    "image": "/images/test.jpg",
+    "title": "Tratamiento de Celulitis",
+    "content": "Nuestros tratamientos de celulitis se enfocan en la apariencia de la celulitis, promoviendo una piel más suave y firme y aumentando la confianza en el cuerpo.",
     "showButton": false,
     "link": "",
     "message": "",
-    "benefit": "Promueve la salud física, favorece un mejor sueño, estimula el sistema inmunológico, desintoxica el organismo, mejora la circulación sanguínea."
+    "benefit": "Experimente una mejor textura de la piel, reducción de la celulitis y una mayor confianza en su apariencia con nuestros eficaces tratamientos de celulitis.",
+    "price": 100,
+    "session": ""
+  },
+  {
+    "image": "/images/test.jpg",
+    "title": "Levantamiento de Glúteos",
+    "content": "Transforme y levante sus glúteos con nuestras técnicas especializadas de terapia con madera, mejorando la forma y el contorno para una apariencia más levantada.",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Disfrute de glúteos más levantados y con mejor forma, aumente la confianza y mejore la estética general de la parte inferior del cuerpo con nuestros tratamientos de levantamiento de glúteos.",
+    "price": 100,
+    "session": ""
+  },
+  {
+    "image": "/images/facial-cupping.jpg",
+    "title": "Facial de Ventosas",
+    "content": "Revele la radiación natural de su piel con nuestros tratamientos faciales de ventosas, que mejoran la circulación sanguínea, reducen la hinchazón y promueven una tez juvenil.",
+    "alt": "cupping facial",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Disfrute de una piel más suave y joven con reducción de hinchazón, mejora de la circulación sanguínea y una tez rejuvenecida.",
+    "price": 120,
+    "session": ""
+  },
+  {
+    "image": "/images/lymphatic-draining.jpg",
+    "title": "Drenaje Linfático Postoperatorio",
+    "content": "Nuestras sesiones de drenaje linfático promueven una circulación saludable, reducen la inflamación y mejoran los procesos naturales de desintoxicación del cuerpo, promoviendo el bienestar general. Se recomienda comenzar dos semanas después de la cirugía. Esto tiene el efecto de tratar la retención de líquidos al reducir la inflamación y fomentar la",
+    "alt": "lymphatic draining",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Disfrute de una circulación mejorada, reducción de la inflamación y una efectiva desintoxicación que promueve la salud general.",
+    "price": 110,
+    "session": ""
+  },
+  {
+    "image": "/images/body-wraps.jpg",
+    "title": "Envolturas Corporales",
+    "content": "Experimente la máxima desintoxicación y rejuvenecimiento de la piel con nuestras envolturas corporales nutritivas, diseñadas para dejarlo sintiéndose fresco y revitalizado.",
+    "alt": "body wraps",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Experimente la desintoxicación, mejore el tono de la piel y aumente la relajación, nutriendo su piel y promoviendo una sensación de bienestar.",
+    "price": 50,
+    "session": ""
+  },
+  {
+    "image": "/images/test.jpg",
+    "title": "Terapia Deportiva con Madera",
+    "content": "Nuestras sesiones de terapia deportiva con madera están diseñadas para apoyar a atletas y entusiastas del fitness en la reducción de la tensión muscular, la promoción de la recuperación y la optimización del rendimiento.",
+    "showButton": false,
+    "link": "",
+    "message": "",
+    "benefit": "Mejore su rendimiento atlético, reduzca la tensión muscular y acelere la recuperación, lo que le permite destacar en sus deportes y actividades de fitness.",
+    "price": 150,
+    "session": ""
   }
 ]

@@ -10,7 +10,11 @@
       </div>
 
       <ButtonItem v-if="info.showButton" :message="info.message" :link="info.link" class="link" />
-      <h3 v-if="info.price" class="price white">price ${{ info.price }}</h3>
+      <h3 v-if="info.price" class="price white">
+        ${{ info.price }} {{ $t('service_subtitle.hour') }}
+      </h3>
+
+      <h3 v-else-if="info.session" class="price">{{ info.session }}</h3>
     </article>
     <div class="image-wrapper">
       <img :src="info.image" :alt="info.alt" />
@@ -45,7 +49,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.price{
+.price {
   margin-top: 10px;
 }
 .light-brown {
@@ -89,7 +93,7 @@ export default {
   align-items: center;
   img {
     width: 90%;
-    max-width: 600px;
+    max-height: 500px;
     max-width: 500px;
     border-radius: 12px;
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
