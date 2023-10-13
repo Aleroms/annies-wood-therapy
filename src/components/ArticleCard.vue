@@ -88,10 +88,13 @@ export default {
 
 .image-wrapper {
   margin-top: 1.625rem;
+  margin-right: 1.625rem;
   display: flex;
   justify-content: center;
   align-items: center;
+
   img {
+    min-width: 275px;
     width: 90%;
     max-height: 500px;
     max-width: 500px;
