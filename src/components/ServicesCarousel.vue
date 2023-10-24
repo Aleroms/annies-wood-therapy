@@ -46,7 +46,6 @@ export default {
   },
   computed: {
     slidesPerView() {
-      console.log(this.windowWidth)
       if (this.windowWidth <= 768) {
         return 1
       } else if (this.windowWidth <= 1024) {
@@ -71,7 +70,6 @@ export default {
   },
   mounted() {
     window.addEventListener('resize', this.handleResize)
-    console.log(this.$t('services[0].title'))
   },
   unmounted() {
     window.removeEventListener('resize', this.handleResize)

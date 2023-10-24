@@ -7,6 +7,7 @@ import qualificationDescriptionTranslations from '@/assets/data/qualification-de
 import servicesTranslations from '@/assets/data/services.json'
 import serviceSubtitleTranslations from '@/assets/data/service_subtitle.json'
 import qualificationTranslations from '@/assets/data/qualification.json'
+import serviceAreaTranslations from '@/assets/data/service-area.json'
 
 //component-level translations over page-level translations
 export default {
@@ -18,5 +19,6 @@ export default {
   qualification: qualificationDescriptionTranslations,
   qualifications: qualificationTranslations,
   services: servicesTranslations,
-  service_subtitle: serviceSubtitleTranslations
+  service_subtitle: serviceSubtitleTranslations,
+  service_area: serviceAreaTranslations
 }
