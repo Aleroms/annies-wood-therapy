@@ -94,10 +94,11 @@ export default {
   padding-right: 2.625rem;
   background-color: var(--brown);
   position: fixed;
+  box-sizing: border-box;
   top: 0;
   left: 0;
   z-index: 999;
-  width: 90%;
+  width: 100%;
 }
 .mobile {
   display: flex;
@@ -113,7 +114,7 @@ export default {
 //sidebar code
 .sidebar {
   position: fixed;
-  top: 88px;
+  top: 94px;
   left: -170px; /* Initially hidden */
   width: 170px;
   height: 100vh;
@@ -143,9 +144,7 @@ export default {
   .logo {
     padding-left: 15px;
   }
-  .navbar {
-    width: 96%;
-  }
+  
   .nav-link {
     font-size: 22px;
     font-weight: 800;
