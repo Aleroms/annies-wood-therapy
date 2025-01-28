@@ -1,6 +1,6 @@
 <template>
   <section class="location brown-container" id="location">
-    <img src="/images/rancho.png" alt="rancho cucamonga" aria-hidden="true" />
+    <img src="/images/rancho.png" alt="rancho santa margarita" aria-hidden="true" />
     <div class="location-container">
       <h2 class="title">{{ $t('service_area.title') }}</h2>
       <p class="content">{{ $t('service_area.content') }}</p>
