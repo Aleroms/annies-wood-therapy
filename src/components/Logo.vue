@@ -2,7 +2,7 @@
   <div class="logo">
     <RouterLink to="/" class="nav-link">
       <h2>Annie's</h2>
-      <h3>Wood Therapy</h3>
+      <h3>Massage Therapy</h3>
     </RouterLink>
   </div>
 </template>

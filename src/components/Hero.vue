@@ -2,7 +2,7 @@
   <section class="hero-container">
     <!-- <h1>{{ heroItem.title }}</h1> -->
     <h1>{{ $t(`hero[${this.currentPage}].title`) }}</h1>
-    <h2>ANNIE'S WOOD THERAPY</h2>
+    <h2>Annie's Massage Therapy and Body Sculpting</h2>
     <ButtonItem
       :link="heroItem.link"
       :message="$t(`hero[${this.currentPage}].message`)"
@@ -50,6 +50,8 @@ export default {
   h2 {
     font-size: 22px;
     margin-bottom: 1rem;
+    text-wrap: wrap;
+    width: 400px;
   }
 
   background-image: url('/images/hero-background.jpg');
